@@ -72,6 +72,7 @@
       height: 310px;
       margin-top: 115px;
       background-position: center;
+      margin-bottom: 10px;
     }
     
     .bg-img-2-mob-sm {
@@ -79,6 +80,8 @@
       background-size: cover;
       max-width: 305px;
       height: 310px;
+      background-position: center;
+      margin-bottom: 10px;
     }
     
     .bg-img-3-mob-sm {
@@ -86,6 +89,7 @@
       background-size: cover;
       max-width: 305px;
       height: 310px;
+      margin-bottom: 10px;
     }
     
     .article-1-mob-sm {
