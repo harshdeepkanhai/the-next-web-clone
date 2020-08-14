@@ -11,6 +11,10 @@
       display: none;
     }
 
+    .funding {
+      display: none;
+    }
+
     /* Navbar Section */
 
     .nav-mob-sm {
@@ -184,13 +188,14 @@
 
     .latest-news-mob-sm {
         flex-direction: column;
-        width: 75%;
-        margin-left: 3%;
+        width: 100%;
+        align-items: center;
     }
     
     .art-2-title-mob-sm {
         height: 80px;
         align-items: center;
+        width: 90%;
     }
 
     .art-2-box-mob-sm > div {
@@ -212,14 +217,13 @@
     
     .articles-2-mob-sm {
       flex-direction: column;
+      width: 90%;
     }
     
     .art-2-box-mob-sm {
         width: 280px;
         height: 90px;
     }
-    
-    
     
     .art-2-box-mob-sm h2 {
         margin: 2px 0 3px 1px;
@@ -239,6 +243,110 @@
     
     .art-2-box-mob-sm li {
         margin-right: 10px;
+    }
+
+    /* Fundings Section */
+
+    .container-mob-sm {
+      flex-direction: column;
+      width: 90%;
+      margin-top: 20px;
+    }
+    
+    .container-mob-sm > .item-mob-sm {
+      width: 270px;
+      height: 269.13px;
+      padding: 12px 24px 12px 0;
+    }
+    
+    .head-mob-sm {
+      background: #f42;
+      color: white;
+      padding: 12px;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    
+    .funding-mob-sm {
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .funding-title-div-mob-sm {
+      flex-direction: column;
+      width: 90%;
+      height: 50px;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 80px;
+    }
+    
+    .funding-title-div-mob-sm > h2 > a{
+      font-size: 1.7em;
+      color: #f42;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .funding-title-div-mob-sm > p {
+      color: #f42;
+      flex-direction: column;
+      line-height: 1.8;
+      font-size: 0.9em;
+      width: 100%;
+      margin: 10px 0;
+    }
+    
+    .funding-title-div-mob-sm > p > a {
+      color: #f42;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+    
+    .fund-mob-sm {
+      background: rgba(255,68,34,.08);
+      padding-left: 12px;
+      height: 40px;
+      flex-direction: column;
+    }
+    
+    .fund-mob-sm > h5 {
+      color: black;
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+    
+    .fund-mob-sm > p {
+      color: #555;
+      font-size: 1em;
+    }
+    
+    .spec-mob-sm {
+      height: 80px;
+      padding-left: 12px;
+      align-items: center;
+      line-height: 1.5;
+      color: #555;
+      font-size: 0.9em;
+    }
+    
+    .description-mob-sm {
+      height: 80px;
+      padding-left: 12px;
+    }
+
+    .description-mob-sm a {
+      text-decoration: none;
+      color: #555;
+      line-height: 1.5;
+      font-size: 0.8em;
+      max-width: 75%;
+    }
+    
+    .description-mob-sm span {
+      color: #aaa;
     }
 
 }

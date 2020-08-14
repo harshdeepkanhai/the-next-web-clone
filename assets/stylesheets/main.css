@@ -20,6 +20,10 @@ body {
   display: none;
 }
 
+.funding-mob-sm {
+  display: none;
+}
+
 /* Navbar Section */
 
 .nav {
@@ -227,19 +231,20 @@ body {
 
 .latest-news {
   flex-direction: column;
-  width: 75%;
-  margin-left: 9%;
+  width: 100%;
+  align-items: center;
 }
 
 .art-2-title {
   height: 80px;
   align-items: center;
+  width: 80%;
 }
 
 .latest-news h1 {
   font-size: 2.5em;
   font-weight: bold;
-  color: orangered;
+  color: #f42;
 }
 
 .articles-2 {
@@ -248,6 +253,7 @@ body {
   grid-template-rows: 1fr 1fr;
   height: 505px;
   grid-gap: 30px;
+  width: 80%;
 }
 
 .art-2-box {
@@ -286,43 +292,103 @@ body {
   margin-right: 10px;
 }
 
-}
+/* Fundings Section */
 
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
+  width: 80%;
 }
 
 .container > .item {
-
-  max-width: 290px;
+  width: 270px;
+  height: 269.13px;
+  padding: 12px 24px 12px 0;
 }
 
 .head {
-  background: crimson;
+  background: #f42;
   color: white;
   padding: 12px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.funding {
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.funding-title-div {
+  justify-content: space-between;
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.funding-title-div > h2 > a{
+  font-size: 2em;
+  color: #f42;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.funding-title-div > p {
+  color: #f42;
+}
+
+.funding-title-div > p > a {
+  color: #f42;
+  text-decoration: none;
+  font-size: 1.1em;
 }
 
 .fund {
   background: rgba(255,68,34,.08);
-  padding: 12px;
+  padding-left: 12px;
+  height: 40px;
+  flex-direction: column;
+}
+
+.fund > h5 {
+  color: black;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.fund > p {
+  color: #555;
+  font-size: 1em;
 }
 
 .spec {
-  padding: 12px;
+  height: 80px;
+  padding-left: 12px;
+  align-items: center;
+  line-height: 1.5;
+  color: #555;
+  font-size: 0.9em;
 }
 
 .description {
-  padding: 12px;
-
+  height: 80px;
+  padding-left: 12px;
 }
 
 .description a {
   text-decoration: none;
+  color: #555;
+  line-height: 1.5;
+  font-size: 0.8em;
+  max-width: 75%;
 }
 
 .description span {
   color: #aaa;
 }
+
+}
+
