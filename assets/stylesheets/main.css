@@ -287,3 +287,42 @@ body {
 }
 
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+
+.container > .item {
+
+  max-width: 290px;
+}
+
+.head {
+  background: crimson;
+  color: white;
+  padding: 12px;
+}
+
+.fund {
+  background: rgba(255,68,34,.08);
+  padding: 12px;
+}
+
+.spec {
+  padding: 12px;
+}
+
+.description {
+  padding: 12px;
+
+}
+
+.description a {
+  text-decoration: none;
+}
+
+.description span {
+  color: #aaa;
+}
