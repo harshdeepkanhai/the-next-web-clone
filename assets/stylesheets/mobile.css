@@ -15,12 +15,25 @@
       display: none;
     }
 
+    .mid-links {
+      display: none;
+    }
+
+    .article-1 {
+      display: none;
+    }
+    
+    .article-3 {
+      display: none;
+    }
+
     /* Navbar Section */
 
     .nav-mob-sm {
       position: fixed;
       width: 320px;
       flex-direction: column;
+      z-index: 100;
     }
 
     .nav-mob-sm-div-1 {
@@ -254,9 +267,9 @@
     }
     
     .container-mob-sm > .item-mob-sm {
-      width: 270px;
+      width: 287px;
       height: 269.13px;
-      padding: 12px 24px 12px 0;
+      padding: 12px 0;
     }
     
     .head-mob-sm {
@@ -354,6 +367,126 @@
   display: grid;
   grid-template-columns: 1fr;
   min-width: 232px;
+}
+
+/* Mid Links Section */
+
+.mid-links-mob-sm {
+  width: 100%;
+}
+
+.articles-3-mob-sm {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.articles-3-mob-sm h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #f42;
+  margin-bottom: 10px;
+}
+
+.articles-3-mob-sm img {
+  width: 100%;
+  height: 100%;
+}
+
+.top-div-mob-sm {
+  position: relative;
+}
+
+.top-div-mob-sm > div {
+  padding: 10px;
+  position: absolute;
+  background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
+  height: 195px;
+}
+
+.top-div-mob-sm h4 {
+  color: white;
+  font-size: 0.8em;
+  line-height: 1.5;
+  padding-top: 38%;
+}
+
+.top-div-mob-sm h3 {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.top-div-mob-sm li {
+  color: #aaa;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.mid-div-mob-sm {
+  background-color: #ff432215;
+  height: 96px;
+  width: 100%;
+  align-items: center;
+}
+
+.mid-div-mob-sm > div {
+  float: left;
+  padding: 0 0 0 10px;
+}
+
+.mid-div-mob-sm h5 {
+  color: #f42;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.mid-div-mob-sm a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 0.8em;
+  line-height: 1.2;
+  font-weight: bold;
+  max-width: 70%;
+  text-justify: auto;
+}
+
+.mid-div-mob-sm > img {
+  float: right;
+  height: 96px;
+  width: 96px;
+}
+
+.articles-3-mob-sm ul {
+  list-style: none;
+}
+
+.bottom-div-mob-sm > ul > li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.bottom-div-mob-sm > ul > li {
+  height: 51px;
+}
+
+.bottom-div-mob-sm > ul > li > a {
+  color: #aaa;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.bottom-div-mob-sm {
+  width: 89%;
+  height: 255px;
+  padding: 20px;
 }
 
 }

@@ -24,6 +24,10 @@ body {
   display: none;
 }
 
+.mid-links-mob-sm {
+  display: none;
+}
+
 /* Navbar Section */
 
 .nav {
@@ -390,8 +394,7 @@ body {
   color: #aaa;
 }
 
-}
-
+/* Mid Links Section */
 
 .mid-links {
   width: 100%;
@@ -423,25 +426,31 @@ body {
 }
 
 .top-div > div {
-  padding-top: 45%;
-  padding-left: 10px;
+  padding: 10px;
   position: absolute;
+  background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
+  height: 280px;
 }
 
 .top-div h4 {
   color: white;
   font-size: 0.8em;
-  line-height: 1.4;
+  line-height: 1.5;
+  padding-top: 50%;
 }
 
-.top-div h5 {
+.top-div h3 {
   color: white;
   font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .top-div li {
   color: #aaa;
   font-size: 0.7em;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 .mid-div {
@@ -453,7 +462,7 @@ body {
 
 .mid-div > div {
   float: left;
-  padding: 0 0 0 10px;
+  padding: 20px 0 0 10px;
 }
 
 .mid-div h5 {
@@ -478,6 +487,33 @@ body {
   width: 96px;
 }
 
-.articles-3 li {
-  list-style: circle;
+.articles-3 ul {
+  list-style: none;
+}
+
+.bottom-div > ul > li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.bottom-div > ul > li {
+  height: 51px;
+}
+
+.bottom-div > ul > li > a {
+  color: #aaa;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.bottom-div {
+  width: 89%;
+  height: 255px;
+  padding: 20px;
+}
+
 }
