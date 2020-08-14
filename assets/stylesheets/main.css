@@ -28,6 +28,14 @@ body {
   display: none;
 }
 
+.deals-mob-sm {
+  display: none;
+}
+
+.footer-mob-sm {
+  display: none;
+}
+
 /* Navbar Section */
 
 .nav {
@@ -518,10 +526,13 @@ body {
 
 /* Deals section */
 
+.deals {
+  align-items: center;
+  flex-direction: column;
+}
 
-.deals div {
+.deals-title {
   width: 80%;
-  display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -538,38 +549,111 @@ body {
   color: #f42
 }
 
-
 .deals-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
+  grid-column-gap: 20px;
+  width: 80%;
 }
 
-.deal-items a img {
+.deal-items img {
   width: 270px;
+  height: 205px;
+  margin-bottom: 5px;
 }
 
 .deal-items {
   display: flex;
   flex-direction: column;
   width: 270px;
+  height: 320px;
 }
 
-.deal-items .font{
+.font{
  font-size: 1.2em;
  width: 100%;
  font-weight: bold;
+ height: 40px;
+margin-bottom: 10px;
 }
+
 .price {
   width: 100%;
-  justify-content: space-between;
-  
+  height: 26px;
+  margin-bottom: 5px;
 }
 
-.price > *{
-  font-size: 1.3em;
+.old-price {
+  font-size: 0.8em;
+  color: #aaa;
 }
 
+.new-price {
+  font-size: 1.1em;
+  color: #555;
+  margin-left: 10px;
+}
 
+/* Footer Section */
+
+.footer {
+  width: 100%;
+  height: 257px;
+}
+
+.ft-top-div {
+  background-color: #131313;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+
+.ft-top-div i {
+  color: white;
+  height: 30px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ft-links {
+  margin-top: 30px;
+}
+
+.ft-links li {
+  color: #aaa;
+  font-size: 0.8em;
+  margin-right: 15px;
+}
+
+.ft-bottom-div {
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+}
+
+.ft-bottom-div img {
+  height: 9px;
+  width: 37.13px;
+  margin-right: 5px;
+}
+
+.ft-bottom-div p {
+  color: #aaa;
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+
+.ft-bottom-div a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 }

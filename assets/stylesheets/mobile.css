@@ -27,6 +27,14 @@
       display: none;
     }
 
+    .deals {
+      display: none;
+    }
+
+    .footer {
+      display: none;
+    }
+
     /* Navbar Section */
 
     .nav-mob-sm {
@@ -487,6 +495,165 @@
   width: 89%;
   height: 255px;
   padding: 20px;
+}
+
+/* Deals section */
+
+.deals-mob-sm {
+  align-items: center;
+  flex-direction: column;
+}
+
+.deals-title-mob-sm {
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.deals-mob-sm h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #f42;
+  margin-bottom: 30px;
+}
+
+.deals-mob-sm h4 {
+  font-size: 0.9em;
+  color: #f42
+}
+
+.deals-section-mob-sm {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 72px;
+}
+
+.deal-items-mob-sm img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.deal-items-mob-sm {
+  display: flex;
+  width: 270px;
+}
+
+.deal-items-mob-sm > div {
+  flex-direction: column;
+  height: 75px;
+}
+
+.font-mob-sm {
+  font-size: 0.9em;
+  width: 100%;
+  font-weight: bold;
+  height: 40px;
+  margin: 5px 0 10px 0;
+}
+
+.price-mob-sm {
+  width: 100%;
+  height: 26px;
+  margin: 5px 0;
+}
+
+.old-price-mob-sm {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.new-price-mob-sm {
+  font-size: 1.1em;
+  color: #555;
+  margin-left: 10px;
+}
+
+/* Footer Section */
+
+.footer-mob-sm {
+  width: 100%;
+  height: 307px;
+  margin-top: 600px;
+}
+
+.ft-top-div-mob-sm {
+  background-color: #131313;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 185px;
+}
+
+.icons-mob-sm {
+  width: 90%;
+}
+
+.ft-top-div-mob-sm i {
+  color: white;
+  height: 30px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 4px 0 4px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ft-links-mob-sm {
+  margin-top: 30px;
+  height: 35%;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ft-links-mob-sm li {
+  color: #aaa;
+  font-size: 0.8em;
+  margin-right: 15px;
+}
+
+.ft-bottom-div-mob-sm {
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  height: 122px;
+  border: 1px white solid;
+  padding: 5%;
+}
+
+.ft-bottom-div-mob-sm > div {
+  height: 80%;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.4;
+  max-width: 90%;
+  text-align: center;
+}
+
+.ft-bottom-div-mob-sm img {
+  height: 9px;
+  width: 37.13px;
+  margin-right: 5px;
+}
+
+.ft-bottom-div-mob-sm a {
+  color: #aaa;
+  margin-right: 5px;
+  font-size: 0.9em;
+  text-decoration: none;
+  float: left;
+}
+
+.ft-bottom-div-mob-sm a:last-of-type {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  float: right;
 }
 
 }
