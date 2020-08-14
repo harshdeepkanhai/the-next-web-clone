@@ -516,4 +516,60 @@ body {
   padding: 20px;
 }
 
+/* Deals section */
+
+
+.deals div {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.deals div h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #f42;
+  margin-bottom: 30px;
+}
+
+.deals div h4 {
+  font-size: 1.1em;
+  color: #f42
+}
+
+
+.deals-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.deal-items a img {
+  width: 270px;
+}
+
+.deal-items {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+
+.deal-items .font{
+ font-size: 1.2em;
+ width: 100%;
+ font-weight: bold;
+}
+.price {
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+.price > *{
+  font-size: 1.3em;
+}
+
+
+
 }
