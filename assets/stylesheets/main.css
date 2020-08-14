@@ -33,6 +33,7 @@ body {
   height: 30px;
   padding: 0 15px;
   align-items: center;
+  transition: ease-out;
 }
 
 .u-clear > ul > li {
@@ -45,9 +46,15 @@ body {
   font-size: 1em;
 }
 
-.nav-sections {
+.nav-div-2 {
   background-color: white;
   height: 50px;
+  width: 100%;
+}
+
+.nav-sections {
+  background-color: white;
+  height: 100%;
   padding: 0 20px;
   align-items: center;
   float: left;
