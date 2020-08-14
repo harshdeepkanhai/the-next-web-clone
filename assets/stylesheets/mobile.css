@@ -349,4 +349,11 @@
       color: #aaa;
     }
 
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-width: 232px;
+}
+
 }

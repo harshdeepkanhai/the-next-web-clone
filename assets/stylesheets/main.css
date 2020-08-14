@@ -392,3 +392,16 @@ body {
 
 }
 
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  min-width: 232px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+div > ul> li{
+  list-style: circle;
+}
