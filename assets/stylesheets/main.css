@@ -42,6 +42,10 @@ body {
     flex-direction: column;
   }
 
+  .nav-medium {
+    display: none;
+  }
+
   .u-clear {
     justify-content: space-between;
     background-color: black;

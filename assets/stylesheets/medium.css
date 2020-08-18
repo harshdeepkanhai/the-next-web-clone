@@ -1,3 +1,17 @@
 @media only screen and (min-width: 426px) and (max-width: 1023px) {
-    
+    .nav,
+    .nav-mob-sm,
+    .articles,
+    .articles-mob-sm,
+    .latest-news,
+    .latest-news-mob-sm,
+    .funding,
+    .funding-mob-sm,
+    .mid-links,
+    .mid-links-mob-sm,
+    .deals,
+    .deals-mob-sm
+    {
+        display: none;
+    }
 }
