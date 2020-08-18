@@ -1,4 +1,4 @@
-@media only screen and (min-width: 426px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .nav,
     .nav-mob-sm,
     .articles,
@@ -10,8 +10,99 @@
     .mid-links,
     .mid-links-mob-sm,
     .deals,
-    .deals-mob-sm
-    {
+    .deals-mob-sm,
+    .footer,
+    .footer-mob-sm {
         display: none;
+    }
+
+    .nav-medium {
+      flex-direction: column;
+    }
+
+    .nav-medium-logo {
+      height: 80px;
+      width: 100%;
+      background-color: rgb(218, 80, 80);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-medium-logo > div {
+      width: 100%;
+      height: 100%;
+    }
+
+    .nav-medium-logo img {
+      width: 66px;
+      height: 16px;
+      float: right;
+      padding: 0 15px;
+    }
+
+    .u-clear-medium {
+      justify-content: space-between;
+      background-color: black;
+      height: 32px;
+      padding: 0 15px;
+      align-items: center;
+      transition: ease-out;
+    }
+
+    .u-clear-medium > ul > li {
+      margin: 0 5px;
+    }
+
+    .u-clear-medium > ul > li > a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    .nav-medium-div-2 {
+      background-color: white;
+      height: 48px;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-medium-sections {
+      padding-left: 15px;
+    }
+
+    .nav-medium-sections-section {
+      margin: 0 5px;
+    }
+
+    .nav-medium-sections-section > a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 1em;
+    }
+
+    .nav-medium-div-2 > div {
+      border-left: 1px #aaa solid;
+      height: 100%;
+      align-items: center;
+    }
+
+    .nav-medium-div-2 i {
+      margin-right: 20px;
+      padding-left: 20px;
+      color: #aaa;
+    }
+
+    .nav-medium-div-3 {
+      background-color: rgb(250, 227, 100);
+      height: 30px;
+      width: 100%;
+      align-items: center;
+      padding: 0 140px;
+    }
+
+    .nav-medium-div-3 > a {
+      color: black;
+      text-decoration: none;
+      font-size: 0.8em;
     }
 }

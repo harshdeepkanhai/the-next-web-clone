@@ -1,44 +1,18 @@
 @media only screen and (max-width: 767px) {
-  .nav {
-    display: none;
-  }
-
-  .articles {
-    display: none;
-  }
-
-  .latest-news {
-    display: none;
-  }
-
-  .funding {
-    display: none;
-  }
-
-  .mid-links {
-    display: none;
-  }
-
-  .article-1 {
-    display: none;
-  }
-
-  .article-3 {
-    display: none;
-  }
-
-  .deals {
-    display: none;
-  }
-
-  .footer {
+  .nav,
+  .articles,
+  .latest-news,
+  .funding,
+  .mid-links,
+  .article-1,
+  .article-3,
+  .deals,
+  .footer,
+  .nav-medium {
     display: none;
   }
 
   /* Navbar Section */
-  .nav-medium {
-    display: none;
-  }
 
   .nav-mob-sm {
     position: fixed;
@@ -48,10 +22,12 @@
   }
 
   .top-div-mob-sm > div {
-    padding: 10px;
     position: absolute;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
-    height: 92%;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
   }
 
   .nav-mob-sm-div-1 {
@@ -184,7 +160,7 @@
   .bg-img-mob-sm {
     background-image: url(../images/article-1-bg.png);
     background-size: cover;
-    max-width: 97%;
+    width: 97%;
     height: 310px;
     background-position: center;
     margin-bottom: 10px;
@@ -193,7 +169,7 @@
   .bg-img-2-mob-sm {
     background-image: url(../images/article-2-bg.jpg);
     background-size: cover;
-    max-width: 767px;
+    width: 97%;
     height: 310px;
     background-position: center;
     margin-bottom: 10px;
@@ -202,7 +178,7 @@
   .bg-img-3-mob-sm {
     background-image: url(../images/article-3-bg.png);
     background-size: cover;
-    max-width: 97%;
+    width: 97%;
     height: 310px;
     margin-bottom: 10px;
   }
@@ -488,7 +464,7 @@
     color: white;
     font-size: 0.8em;
     line-height: 1.5;
-    padding-top: 38%;
+    padding: 0 0 0 10px;
   }
 
   .top-div-mob-sm h3 {
@@ -496,6 +472,7 @@
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 5px;
+    padding: 5px 10px 5px 10px;
   }
 
   .top-div-mob-sm li {
@@ -503,6 +480,7 @@
     font-size: 0.7em;
     font-weight: bold;
     margin-right: 10px;
+    padding: 0 0 10px 10px;
   }
 
   .mid-div-mob-sm {
