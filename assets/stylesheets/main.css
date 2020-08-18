@@ -6,7 +6,7 @@ body {
   flex-direction: column;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 2560px) {
+@media only screen and (min-width: 1024px) {
   .articles-mob-sm {
     display: none;
   }
@@ -260,7 +260,7 @@ body {
   }
 
   .deal-items img {
-    width: 270px;
+    width: 100%;
     height: 205px;
     margin-bottom: 5px;
   }
@@ -285,7 +285,7 @@ body {
     padding: 10px;
     position: absolute;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
-    height: 280px;
+    height: 93%;
   }
 
   .mid-div > div {
@@ -364,12 +364,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 505px;
-    grid-gap: 30px;
+    grid-gap: 20px;
     width: 80%;
   }
 
   .art-2-box {
-    width: 270px;
     height: 227px;
   }
 
@@ -399,13 +398,13 @@ body {
   .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
     width: 80%;
   }
 
   .container > .item {
-    width: 270px;
     height: 269.13px;
-    padding: 12px 24px 12px 0;
+    padding: 12px 0;
   }
 
   .head {
@@ -501,7 +500,7 @@ body {
     color: white;
     font-size: 0.8em;
     line-height: 1.5;
-    padding-top: 50%;
+    padding-top: 42%;
   }
 
   .top-div h3 {
@@ -583,7 +582,6 @@ body {
   .deal-items {
     display: flex;
     flex-direction: column;
-    width: 270px;
     height: 320px;
   }
 
@@ -592,7 +590,7 @@ body {
     width: 100%;
     font-weight: bold;
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .price {

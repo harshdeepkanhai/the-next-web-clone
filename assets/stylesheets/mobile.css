@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1px) and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
   .nav {
     display: none;
   }
@@ -39,7 +39,7 @@
 
   .nav-mob-sm {
     position: fixed;
-    width: 320px;
+    width: 100%;
     flex-direction: column;
     z-index: 100;
   }
@@ -48,7 +48,7 @@
     padding: 10px;
     position: absolute;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
-    height: 195px;
+    height: 92%;
   }
 
   .nav-mob-sm-div-1 {
@@ -181,7 +181,7 @@
   .bg-img-mob-sm {
     background-image: url(../images/article-1-bg.png);
     background-size: cover;
-    max-width: 305px;
+    max-width: 97%;
     height: 310px;
     background-position: center;
     margin-bottom: 10px;
@@ -190,7 +190,7 @@
   .bg-img-2-mob-sm {
     background-image: url(../images/article-2-bg.jpg);
     background-size: cover;
-    max-width: 305px;
+    max-width: 97%;
     height: 310px;
     background-position: center;
     margin-bottom: 10px;
@@ -199,7 +199,7 @@
   .bg-img-3-mob-sm {
     background-image: url(../images/article-3-bg.png);
     background-size: cover;
-    max-width: 305px;
+    max-width: 97%;
     height: 310px;
     margin-bottom: 10px;
   }
@@ -291,6 +291,10 @@
     width: 90%;
   }
 
+  .art-2-box-mob-sm > div {
+    width: 100%;
+  }
+
   .art-2-box-mob-sm > div > a > img {
     height: 75px;
     width: 90px;
@@ -303,7 +307,7 @@
   }
 
   .art-2-box-mob-sm {
-    width: 280px;
+    width: 100%;
     height: 90px;
   }
 
@@ -362,7 +366,7 @@
   }
 
   .container-mob-sm > .item-mob-sm {
-    width: 287px;
+    width: 100%;
     height: 269.13px;
     padding: 12px 0;
   }
@@ -443,6 +447,10 @@
   .description-mob-sm {
     height: 80px;
     padding-left: 12px;
+  }
+
+  .description-mob-sm a {
+    max-width: 100%;
   }
 
   .description-mob-sm span {
@@ -550,9 +558,8 @@
   }
 
   .deals-title-mob-sm {
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
-    margin: 0 auto;
     align-items: center;
   }
 
@@ -571,18 +578,18 @@
   .deals-section-mob-sm {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 90%;
     height: 72px;
   }
 
   .deal-items-mob-sm {
     display: flex;
-    width: 270px;
+    width: 100%;
   }
 
   .font-mob-sm {
     font-size: 0.9em;
-    width: 100%;
+    max-width: 100%;
     font-weight: bold;
     height: 40px;
     margin: 5px 0 10px 0;
@@ -623,6 +630,7 @@
 
   .icons-mob-sm {
     width: 90%;
+    justify-content: center;
   }
 
   .ft-links-mob-sm {

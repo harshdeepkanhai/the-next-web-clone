@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Next Web Clone
+# The Next Web Page
 
-> Responsive clone of Next Web clone
+> Heatmap of the smashing magazine homepage
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.jpg)
 
 
 
@@ -21,7 +21,7 @@
 
 ## Authors
 
-👤 **Jonathas Tavares**
+👤 **Jonathas Tavares** 
 
 - Github: [@jonathastavares](https://github.com/jonathastavares)
 - Twitter: [@jhstavares](https://twitter.com/jhstavares)
@@ -37,7 +37,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/harshdeepkanhai/the-next-web-clone/issues).
 
 ## Show your support
 
@@ -45,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Inspiration from the [Smashing Magazine](https://www.smashingmagazine.com/)
+- Inspiration from the [The Next Web](https://thenextweb.com/)
 - the Odin Project
 
 ## 📝 License
