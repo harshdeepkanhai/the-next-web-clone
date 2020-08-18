@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Smashing magazine heatmap
+# The Next Web Clone
 
-> Heatmap of the smashing magazine homepage
+> Responsive clone of Next Web clone
 
-![screenshot](./screenshot.jpg)
+![screenshot](./screenshot.png)
 
 
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jonathastavares/Smashing-Magazine-Page-Clone/Homepage/index.html)
+[Live Demo Link](https://raw.githack.com/harshdeepkanhai/the-next-web-clone/feature/index.html)
 
 
 
