@@ -292,7 +292,7 @@ body {
 
   .article-1 > div > h1 {
     color: white;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold;
     max-width: 95%;
   }
@@ -331,7 +331,7 @@ body {
     padding: 0 20px 20px 20px;
   }
 
-  /* Article 2 Section */
+  /* Latest News Section */
 
   .latest-news {
     flex-direction: column;
@@ -349,7 +349,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 505px;
     grid-gap: 20px;
     width: 80%;
   }

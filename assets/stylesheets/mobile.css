@@ -59,6 +59,7 @@
     line-height: 1.4;
     max-width: 90%;
     text-align: center;
+    color: #aaa;
   }
 
   .art-2-box-mob-sm > div {
@@ -256,7 +257,7 @@
     padding: 0 20px 20px 20px;
   }
 
-  /* Article 2 Section */
+  /* Latest News Section */
 
   .latest-news-mob-sm {
     flex-direction: column;
