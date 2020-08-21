@@ -107,7 +107,7 @@
 
     .articles {
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       grid-gap: 10px;
       width: 98.5%;
@@ -121,7 +121,6 @@
     .bg-img {
       background-image: url(../images/article-1-bg.png);
       background-size: cover;
-      max-width: 100%;
       height: 550px;
       grid-column: 1/3;
       grid-row: 1/3;
@@ -130,7 +129,6 @@
     .bg-img-2 {
       background-image: url(../images/article-2-bg.jpg);
       background-size: cover;
-      max-width: 470px;
       grid-column: 3/4;
       grid-row: 1/2;
       height: 270px;
@@ -259,7 +257,7 @@
   
     .article-3 > h2 {
       color: white;
-      font-size: 2em;
+      font-size: 1.8em;
       font-weight: bold;
       padding: 20px 20px 0 20px;
     }
