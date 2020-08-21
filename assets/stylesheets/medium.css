@@ -11,23 +11,13 @@
   }
 
   .nav-medium {
-    flex-direction: column;
     position: fixed;
-    width: 100%;
     z-index: 100;
   }
 
   .nav-medium-logo {
     height: 80px;
-    width: 100%;
     background-color: rgb(218, 80, 80);
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav-medium-logo > div {
-    width: 100%;
-    height: 100%;
   }
 
   .nav-medium-logo img {
@@ -42,7 +32,6 @@
     background-color: black;
     height: 32px;
     padding: 0 15px;
-    align-items: center;
     transition: ease-out;
   }
 
@@ -50,17 +39,10 @@
     margin: 0 5px;
   }
 
-  .u-clear-medium > ul > li > a {
-    color: #aaa;
-    text-decoration: none;
-    font-size: 0.9em;
-  }
-
   .nav-medium-div-2 {
     background-color: white;
     height: 48px;
     justify-content: space-between;
-    align-items: center;
   }
 
   .nav-medium-sections {
@@ -72,34 +54,25 @@
   }
 
   .nav-medium-sections-section > a {
-    color: #aaa;
-    text-decoration: none;
     font-size: 1em;
   }
 
   .nav-medium-div-2 > div {
     border-left: 1px #aaa solid;
-    height: 100%;
-    align-items: center;
   }
 
   .nav-medium-div-2 i {
     margin-right: 20px;
     padding-left: 20px;
-    color: #aaa;
   }
 
   .nav-medium-div-3 {
     background-color: rgb(250, 227, 100);
     height: 30px;
-    width: 100%;
-    align-items: center;
   }
 
   .nav-medium-div-3 > a {
     color: black;
-    text-decoration: none;
-    font-size: 0.8em;
     margin-left: 120px;
   }
 
@@ -144,10 +117,7 @@
   }
 
   .article-1 {
-    max-width: 100%;
-    height: 100%;
     background: linear-gradient(to bottom, rgba(253, 39, 39, 0.377), black);
-    flex-direction: column;
     justify-content: space-between;
   }
 
@@ -157,13 +127,7 @@
   }
 
   .art-2-box img {
-    width: 100%;
     height: 150px;
-  }
-
-  .articles-3 img {
-    width: 100%;
-    height: 100%;
   }
 
   .ft-bottom-div img {
@@ -179,7 +143,6 @@
   }
 
   .deal-items img {
-    width: 100%;
     height: 205px;
     margin-bottom: 5px;
   }
@@ -188,24 +151,15 @@
     width: 300px;
   }
 
-  .article-1 p,
-  .article-3 p {
-    color: white;
-  }
-
   .article-1 i,
   .article-3 i {
-    color: white;
     margin-right: 5px;
   }
 
   .top-div > div {
     position: absolute;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
-    height: 100%;
-    width: 100%;
     justify-content: flex-end;
-    flex-direction: column;
   }
 
   .mid-div > div {
@@ -214,7 +168,6 @@
   }
 
   .article-1 > div:last-of-type {
-    flex-direction: column;
     padding: 20px;
   }
 
@@ -224,44 +177,32 @@
 
   .latest-news h1 {
     font-size: 2.5em;
-    font-weight: bold;
-    color: #f42;
   }
 
   .article-1 > div > h2 {
-    color: white;
     font-size: 3em;
-    font-weight: bold;
     width: 95%;
   }
 
   .article-2 {
     max-width: 100%;
-    height: 100%;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
     justify-content: flex-end;
-    flex-direction: column;
   }
 
   .article-2 > h2 {
-    color: white;
     font-size: 2em;
-    font-weight: bold;
     padding: 20px;
   }
 
   .article-3 {
     max-width: 100%;
-    height: 100%;
     justify-content: flex-end;
-    flex-direction: column;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
   }
 
   .article-3 > h2 {
-    color: white;
     font-size: 1.8em;
-    font-weight: bold;
     padding: 20px 20px 0 20px;
   }
 
@@ -272,39 +213,26 @@
   /* Latest News Section */
 
   .latest-news {
-    flex-direction: column;
     width: 95%;
-    align-items: center;
     margin: 0 auto;
   }
 
   .art-2-title {
     height: 80px;
-    align-items: center;
-    width: 100%;
   }
 
   .articles-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    width: 100%;
   }
 
   .art-2-box {
     height: 227px;
   }
 
-  .bottom-div > ul > li > a {
-    color: #aaa;
-    font-size: 0.9em;
-    text-decoration: none;
-  }
-
   .art-2-box a:first-of-type {
     color: black;
-    text-decoration: none;
-    font-weight: bold;
     line-height: 1.2;
   }
 
@@ -314,13 +242,7 @@
 
   .art-2-ft-text a,
   .art-2-box li {
-    color: #aaa;
-    text-decoration: none;
     font-size: 1em;
-  }
-
-  .art-2-ft-text {
-    align-items: center;
   }
 
   /* Fundings Section */
@@ -329,7 +251,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 20px;
-    width: 100%;
     margin-top: 20px;
   }
 
@@ -340,36 +261,25 @@
 
   .head {
     background: #f42;
-    color: white;
     padding: 12px;
-    font-weight: bold;
     font-size: 1.2em;
   }
 
   .funding {
-    justify-content: center;
     width: 95%;
-    flex-direction: column;
-    align-items: center;
     margin: 0 auto;
   }
 
   .funding-title-div {
-    flex-direction: column;
-    width: 100%;
     height: 50px;
     margin: 10px 0;
   }
 
   .funding-title-div > h2 > a {
     font-size: 2em;
-    color: #f42;
-    text-decoration: none;
-    font-weight: bold;
   }
 
   .funding-title-div > p > a {
-    color: #f42;
     line-height: 3;
   }
 
@@ -377,13 +287,11 @@
     background: rgba(255, 68, 34, 0.08);
     padding-left: 12px;
     height: 40px;
-    flex-direction: column;
   }
 
   .fund > h5 {
     color: black;
     font-size: 1.4em;
-    font-weight: bold;
   }
 
   .fund > p {
@@ -394,10 +302,8 @@
   .spec {
     height: 80px;
     padding-left: 12px;
-    align-items: center;
     line-height: 1.5;
     color: #555;
-    font-size: 0.9em;
   }
 
   .description {
@@ -406,15 +312,9 @@
   }
 
   .description a {
-    text-decoration: none;
     color: #555;
     line-height: 1.5;
-    font-size: 0.8em;
     max-width: 75%;
-  }
-
-  .description span {
-    color: #aaa;
   }
 
   /* Mid Links Section */
@@ -432,14 +332,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    width: 100%;
     margin: 0 auto;
   }
 
   .articles-3 h2 {
     font-size: 2em;
-    font-weight: bold;
-    color: #f42;
     margin-bottom: 10px;
   }
 
@@ -448,16 +345,12 @@
   }
 
   .top-div h4 {
-    color: white;
-    font-size: 0.8em;
     line-height: 1.5;
     padding: 0 0 0 10px;
   }
 
   .top-div h3 {
-    color: white;
     font-size: 1.2em;
-    font-weight: bold;
     margin-bottom: 5px;
     padding: 5px 10px 5px 10px;
   }
@@ -465,22 +358,15 @@
   .mid-div {
     background-color: #ff432215;
     height: 96px;
-    width: 100%;
-    align-items: center;
   }
 
   .mid-div a {
-    text-decoration: none;
-    color: #f42;
-    font-size: 0.8em;
     line-height: 1.2;
-    font-weight: bold;
     max-width: 70%;
     text-justify: auto;
   }
 
   .mid-div h5 {
-    color: #f42;
     font-size: 0.7em;
     margin-bottom: 5px;
   }
@@ -510,11 +396,6 @@
 
   /* Deals section */
 
-  .deals {
-    align-items: center;
-    flex-direction: column;
-  }
-
   .deals-title {
     width: 95%;
     justify-content: space-between;
@@ -523,14 +404,11 @@
 
   .deals div h2 {
     font-size: 1.5em;
-    font-weight: bold;
-    color: #f42;
     margin-bottom: 30px;
   }
 
   .deals div h4 {
     font-size: 1.1em;
-    color: #f42;
   }
 
   .deals-section {
@@ -542,28 +420,18 @@
   }
 
   .deal-items {
-    display: flex;
-    flex-direction: column;
     height: 320px;
   }
 
   .font {
     font-size: 1.2em;
-    width: 100%;
-    font-weight: bold;
     height: 40px;
     margin-bottom: 20px;
   }
 
   .price {
-    width: 100%;
     height: 26px;
     margin-bottom: 5px;
-  }
-
-  .old-price {
-    font-size: 0.8em;
-    color: #aaa;
   }
 
   .new-price {
@@ -575,20 +443,15 @@
   /* Footer Section */
 
   .footer {
-    width: 100%;
     height: 257px;
   }
 
   .ft-top-div {
     background-color: #131313;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 160px;
   }
 
   .ft-top-div i {
-    color: white;
     height: 30px;
     width: 40px;
     border-radius: 50%;
@@ -603,27 +466,15 @@
   }
 
   .ft-links li {
-    color: #aaa;
-    font-size: 0.8em;
     margin-right: 15px;
   }
 
   .ft-bottom-div {
     background-color: #000;
-    justify-content: center;
-    align-items: center;
     height: 98px;
   }
 
   .ft-bottom-div p {
-    color: #aaa;
     margin-right: 5px;
-    font-size: 0.9em;
-  }
-
-  .ft-bottom-div a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
   }
 }

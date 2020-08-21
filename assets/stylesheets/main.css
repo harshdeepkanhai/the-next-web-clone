@@ -2,11 +2,65 @@
   display: flex;
 }
 
-body {
+.flex-column {
+  display: flex;
   flex-direction: column;
 }
 
+.al-center {
+  align-items: center;
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
+.cl-white {
+  color: white;
+}
+
+.txt-dec-none {
+  text-decoration: none;
+}
+
+.full-sz {
+  width: 100%;
+}
+
+.full-hg {
+  height: 100%;
+}
+
+.sz-80 {
+  width: 80%;
+}
+
+.cl-orange {
+  color: #f42;
+}
+
+.cl-grey {
+  color: #aaa;
+}
+
+.f-08 {
+  font-size: 0.8em;
+}
+
+.f-0 {
+  font-size: 0.9em;
+}
+
+.jst-cnt-center {
+  justify-content: center;
+}
+
+body {
+  width: 100vw;
+}
+
 @media only screen and (min-width: 1024px) {
+
   .articles-mob-sm,
   .nav-mob-sm,
   .latest-news-mob-sm,
@@ -20,17 +74,11 @@ body {
 
   /* Navbar Section */
 
-  .nav {
-    width: 100%;
-    flex-direction: column;
-  }
-
   .u-clear {
     justify-content: space-between;
     background-color: black;
     height: 30px;
     padding: 0 15px;
-    align-items: center;
     transition: ease-out;
   }
 
@@ -43,10 +91,7 @@ body {
     margin: 20px 20px 0 0;
   }
 
-  .art-2-ft-text a,
   .art-2-box li {
-    color: #aaa;
-    text-decoration: none;
     font-size: 1em;
   }
 
@@ -55,16 +100,12 @@ body {
   }
 
   .top-div li {
-    color: #aaa;
     font-size: 0.7em;
-    font-weight: bold;
     margin-right: 10px;
     padding: 0 0 10px 10px;
   }
 
   .ft-links li {
-    color: #aaa;
-    font-size: 0.8em;
     margin-right: 15px;
   }
 
@@ -73,87 +114,57 @@ body {
   }
 
   .nav-sections-div > a {
-    color: white;
     background-color: #0cc;
     padding: 10px;
     border-radius: 5px;
-    text-decoration: none;
     font-size: 0.7em;
     margin-right: 10px;
   }
 
   .nav-div-3 > a {
-    text-decoration: none;
     color: black;
   }
 
   .description a {
-    text-decoration: none;
     color: #555;
     line-height: 1.5;
-    font-size: 0.8em;
     max-width: 75%;
   }
 
   .mid-div a {
-    text-decoration: none;
-    color: #f42;
-    font-size: 0.8em;
     line-height: 1.2;
-    font-weight: bold;
     max-width: 70%;
     text-justify: auto;
   }
 
-  .ft-bottom-div a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
   .nav-sections > li > a {
-    color: #aaa;
-    text-decoration: none;
     font-size: 1em;
   }
 
   .funding-title-div > h2 > a {
     font-size: 2em;
-    color: #f42;
-    text-decoration: none;
-    font-weight: bold;
   }
 
   .funding-title-div > p > a {
-    color: #f42;
-    text-decoration: none;
     font-size: 1.1em;
   }
 
   .u-clear > ul > li > a {
-    color: #aaa;
-    text-decoration: none;
     font-size: 1em;
   }
 
   .nav-div-2 {
-    background-color: white;
     height: 50px;
-    width: 100%;
   }
 
   .nav-sections {
-    background-color: white;
-    height: 100%;
     padding: 0 20px;
-    align-items: center;
     float: left;
   }
 
   .nav-sections-div {
     border-left: 1px #aaa solid;
     height: 50px;
-    align-items: center;
     float: right;
   }
 
@@ -170,7 +181,6 @@ body {
     background-color: rgb(250, 227, 100);
     height: 30px;
     padding: 0 20px;
-    align-items: center;
   }
 
   /** Article 1 Section */
@@ -207,9 +217,7 @@ body {
 
   .article-1 {
     max-width: 100%;
-    height: 100%;
     background: linear-gradient(to bottom, rgba(253, 39, 39, 0.377), black);
-    flex-direction: column;
     justify-content: space-between;
   }
 
@@ -219,13 +227,7 @@ body {
   }
 
   .art-2-box img {
-    width: 100%;
     height: 150px;
-  }
-
-  .articles-3 img {
-    width: 100%;
-    height: 100%;
   }
 
   .ft-bottom-div img {
@@ -241,7 +243,6 @@ body {
   }
 
   .deal-items img {
-    width: 100%;
     height: 205px;
     margin-bottom: 5px;
   }
@@ -251,24 +252,15 @@ body {
     height: auto;
   }
 
-  .article-1 p,
-  .article-3 p {
-    color: white;
-  }
-
   .article-1 i,
   .article-3 i {
-    color: white;
     margin-right: 5px;
   }
 
   .top-div > div {
     position: absolute;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
-    height: 100%;
-    width: 100%;
     justify-content: flex-end;
-    flex-direction: column;
   }
 
   .mid-div > div {
@@ -277,50 +269,37 @@ body {
   }
 
   .article-1 > div:last-of-type {
-    flex-direction: column;
     padding: 20px;
   }
 
   .latest-news h1 {
     font-size: 2.5em;
-    font-weight: bold;
-    color: #f42;
   }
 
   .article-1 > div > h2 {
-    color: white;
     font-size: 3em;
-    font-weight: bold;
     max-width: 95%;
   }
 
   .article-2 {
     max-width: 100%;
-    height: 100%;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
     justify-content: flex-end;
-    flex-direction: column;
   }
 
   .article-2 > h2 {
-    color: white;
     font-size: 2em;
-    font-weight: bold;
     padding: 20px;
   }
 
   .article-3 {
     max-width: 100%;
-    height: 100%;
     justify-content: flex-end;
-    flex-direction: column;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
   }
 
   .article-3 > h2 {
-    color: white;
     font-size: 2em;
-    font-weight: bold;
     padding: 20px 20px 0 20px;
   }
 
@@ -330,15 +309,8 @@ body {
 
   /* Latest News Section */
 
-  .latest-news {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-
   .art-2-title {
     height: 80px;
-    align-items: center;
     width: 80%;
   }
 
@@ -354,25 +326,13 @@ body {
     height: 227px;
   }
 
-  .bottom-div > ul > li > a {
-    color: #aaa;
-    font-size: 0.9em;
-    text-decoration: none;
-  }
-
   .art-2-box a:first-of-type {
     color: black;
-    text-decoration: none;
-    font-weight: bold;
     line-height: 1.2;
   }
 
   .art-2-box h2 {
     margin: 2px 0 3px 1px;
-  }
-
-  .art-2-ft-text {
-    align-items: center;
   }
 
   /* Fundings Section */
@@ -391,42 +351,26 @@ body {
 
   .head {
     background: #f42;
-    color: white;
     padding: 12px;
-    font-weight: bold;
     font-size: 1.2em;
-  }
-
-  .funding {
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
   }
 
   .funding-title-div {
     justify-content: space-between;
-    width: 80%;
     height: 50px;
-    align-items: center;
     margin: 40px 0 10px 0;
-  }
-
-  .funding-title-div > p {
-    color: #f42;
+    width: 80%;
   }
 
   .fund {
     background: rgba(255, 68, 34, 0.08);
     padding-left: 12px;
     height: 40px;
-    flex-direction: column;
   }
 
   .fund > h5 {
     color: black;
     font-size: 1.4em;
-    font-weight: bold;
   }
 
   .fund > p {
@@ -437,10 +381,8 @@ body {
   .spec {
     height: 80px;
     padding-left: 12px;
-    align-items: center;
     line-height: 1.5;
     color: #555;
-    font-size: 0.9em;
   }
 
   .description {
@@ -448,15 +390,7 @@ body {
     padding-left: 12px;
   }
 
-  .description span {
-    color: #aaa;
-  }
-
   /* Mid Links Section */
-
-  .mid-links {
-    width: 100%;
-  }
 
   .mid-links > h2 {
     display: none;
@@ -467,14 +401,12 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 20px;
-    width: 80%;
     margin: 0 auto;
+    width: 80%;
   }
 
   .articles-3 h2 {
     font-size: 2em;
-    font-weight: bold;
-    color: #f42;
     margin-bottom: 10px;
   }
 
@@ -483,16 +415,12 @@ body {
   }
 
   .top-div h4 {
-    color: white;
-    font-size: 0.8em;
     line-height: 1.5;
     padding: 0 0 0 10px;
   }
 
   .top-div h3 {
-    color: white;
     font-size: 1.2em;
-    font-weight: bold;
     margin-bottom: 5px;
     padding: 5px 10px 5px 10px;
   }
@@ -500,12 +428,9 @@ body {
   .mid-div {
     background-color: #ff432215;
     height: 96px;
-    width: 100%;
-    align-items: center;
   }
 
   .mid-div h5 {
-    color: #f42;
     font-size: 0.7em;
     margin-bottom: 5px;
   }
@@ -535,27 +460,19 @@ body {
 
   /* Deals section */
 
-  .deals {
-    align-items: center;
-    flex-direction: column;
-  }
-
   .deals-title {
-    width: 80%;
     justify-content: space-between;
     margin: 0 auto;
+    width: 80%;
   }
 
   .deals div h2 {
     font-size: 1.5em;
-    font-weight: bold;
-    color: #f42;
     margin-bottom: 30px;
   }
 
   .deals div h4 {
     font-size: 1.1em;
-    color: #f42;
   }
 
   .deals-section {
@@ -567,28 +484,18 @@ body {
   }
 
   .deal-items {
-    display: flex;
-    flex-direction: column;
     height: 320px;
   }
 
   .font {
     font-size: 1.2em;
-    width: 100%;
-    font-weight: bold;
     height: 40px;
     margin-bottom: 20px;
   }
 
   .price {
-    width: 100%;
     height: 26px;
     margin-bottom: 5px;
-  }
-
-  .old-price {
-    font-size: 0.8em;
-    color: #aaa;
   }
 
   .new-price {
@@ -600,20 +507,15 @@ body {
   /* Footer Section */
 
   .footer {
-    width: 100%;
     height: 257px;
   }
 
   .ft-top-div {
     background-color: #131313;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 160px;
   }
 
   .ft-top-div i {
-    color: white;
     height: 30px;
     width: 40px;
     border-radius: 50%;
@@ -629,15 +531,11 @@ body {
 
   .ft-bottom-div {
     background-color: #000;
-    justify-content: center;
-    align-items: center;
     height: 98px;
   }
 
   .ft-bottom-div p {
-    color: #aaa;
     margin-right: 5px;
-    font-size: 0.9em;
   }
 
   .articles > h2 {
