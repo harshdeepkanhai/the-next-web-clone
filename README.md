@@ -2,9 +2,9 @@
 
 # The Next Web Page
 
-> Heatmap of the smashing magazine homepage
+> The Next Web Page Clone - Responsive Design Scales to Mobile, Tablet and Desktop.
 
-![screenshot](./screenshot.jpg)
+![screenshot](./screenshot.png)
 
 
 
