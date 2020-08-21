@@ -218,6 +218,9 @@
       flex-direction: column;
       padding: 20px;
     }
+    .articles > h2 {
+      display: none;
+    }
   
     .latest-news h1 {
       font-size: 2.5em;
@@ -225,7 +228,7 @@
       color: #f42;
     }
   
-    .article-1 > div > h1 {
+    .article-1 > div > h2 {
       color: white;
       font-size: 3em;
       font-weight: bold;
@@ -421,6 +424,10 @@
     margin: 0 auto;
   }
 
+  .mid-links > h2 {
+    display: none;
+  }
+  
   .articles-3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

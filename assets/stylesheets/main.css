@@ -287,7 +287,7 @@ body {
     color: #f42;
   }
 
-  .article-1 > div > h1 {
+  .article-1 > div > h2 {
     color: white;
     font-size: 3em;
     font-weight: bold;
@@ -456,6 +456,10 @@ body {
 
   .mid-links {
     width: 100%;
+  }
+
+  .mid-links > h2 {
+    display: none;
   }
 
   .articles-3 {
@@ -635,4 +639,9 @@ body {
     margin-right: 5px;
     font-size: 0.9em;
   }
+
+  .articles > h2 {
+    display: none;
+  }
 }
+

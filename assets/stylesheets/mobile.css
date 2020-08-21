@@ -209,7 +209,11 @@
     color: orangered;
   }
 
-  .article-1-mob-sm > div > h1 {
+  .articles-mob-sm > h2 {
+    display: none;
+  }
+
+  .article-1-mob-sm > div > h2 {
     color: white;
     font-size: 1.1em;
     font-weight: bold;
