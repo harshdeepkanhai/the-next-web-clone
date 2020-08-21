@@ -36,11 +36,6 @@
     padding: 0 10px 0 10px;
   }
 
-  .article-1-mob-sm > div {
-    justify-content: flex-end;
-    padding: 20px;
-  }
-
   .ft-bottom-div-mob-sm > div {
     height: 80%;
     justify-content: center;
@@ -167,10 +162,6 @@
     font-size: 0.6em;
   }
 
-  .article-1-mob-sm > div {
-    padding: 20px;
-  }
-
   .latest-news-mob-sm h1 {
     font-size: 2em;
     color: orangered;
@@ -178,6 +169,34 @@
 
   .articles-mob-sm > h2 {
     display: none;
+  }
+
+  .deals-mob-sm h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+
+  .articles-3-mob-sm h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .mid-links-mob-sm > h2 {
+    display: none;
+  }
+
+  .art-2-box-mob-sm h2 {
+    margin: 2px 0 3px 1px;
+  }
+
+  .article-2-mob-sm > h2 {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+
+  .article-3-mob-sm > h2 {
+    font-size: 1.2em;
+    padding: 20px 20px 0 20px;
   }
 
   .article-1-mob-sm > div > h2 {
@@ -198,20 +217,10 @@
     justify-content: flex-end;
   }
 
-  .article-2-mob-sm > h2 {
-    font-size: 1.2em;
-    padding: 20px;
-  }
-
   .article-3-mob-sm {
     max-width: 100%;
     justify-content: flex-end;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
-  }
-
-  .article-3-mob-sm > h2 {
-    font-size: 1.2em;
-    padding: 20px 20px 0 20px;
   }
 
   .article-3-mob-sm ul {
@@ -239,26 +248,22 @@
     height: 90px;
   }
 
-  .art-2-box-mob-sm h2 {
-    margin: 2px 0 3px 1px;
-  }
-
   .ft-bottom-div-mob-sm a {
     margin-right: 5px;
     float: left;
-  }
-
-  .description-mob-sm a {
-    color: #555;
-    line-height: 1.5;
-    font-size: 0.8em;
-    max-width: 75%;
   }
 
   .mid-div-mob-sm a {
     line-height: 1.2;
     max-width: 70%;
     text-justify: auto;
+  }
+
+  .description-mob-sm a {
+    color: #555;
+    line-height: 1.5;
+    font-size: 0.8em;
+    max-width: 100%;
   }
 
   .art-2-ft-text-mob-sm > li > a,
@@ -346,24 +351,11 @@
     padding-left: 12px;
   }
 
-  .description-mob-sm a {
-    max-width: 100%;
-  }
-
   /* Mid Links Section */
-
-  .mid-links-mob-sm > h2 {
-    display: none;
-  }
 
   .articles-3-mob-sm {
     width: 90%;
     margin: 0 auto;
-  }
-
-  .articles-3-mob-sm h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
   }
 
   .top-div-mob-sm {
@@ -433,11 +425,6 @@
 
   .deals-title-mob-sm {
     width: 90%;
-  }
-
-  .deals-mob-sm h2 {
-    font-size: 1.5em;
-    margin-bottom: 30px;
   }
 
   .deals-section-mob-sm {
