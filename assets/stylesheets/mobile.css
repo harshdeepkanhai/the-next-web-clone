@@ -157,6 +157,11 @@
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(39, 39, 39, 0.521));
   }
 
+  .article-1-mob-sm > div {
+    justify-content: flex-end;
+    padding: 20px;
+  }
+
   .article-1-mob-sm p,
   .article-3-mob-sm p {
     font-size: 0.6em;
