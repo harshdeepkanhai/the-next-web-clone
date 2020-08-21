@@ -56,6 +56,11 @@
     height: 75px;
   }
 
+  .article-1-mob-sm > div {
+    justify-content: flex-end;
+    padding: 20px;
+  }
+
   .nav-mob-sm-div-1 > div:last-of-type {
     background-color: white;
   }
@@ -155,11 +160,6 @@
   .article-1-mob-sm {
     max-width: 100%;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(39, 39, 39, 0.521));
-  }
-
-  .article-1-mob-sm > div {
-    justify-content: flex-end;
-    padding: 20px;
   }
 
   .article-1-mob-sm p,
