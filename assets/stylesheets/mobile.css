@@ -28,12 +28,10 @@
   .nav-mob-sm-div-1 {
     height: 50px;
     background-color: white;
-    justify-content: space-between;
   }
 
   .nav-mob-sm-div-1 > div {
     background-color: red;
-    height: 100%;
     width: 85px;
     padding: 0 10px 0 10px;
   }
@@ -49,16 +47,13 @@
     line-height: 1.4;
     max-width: 90%;
     text-align: center;
-    color: #aaa;
   }
 
   .art-2-box-mob-sm > div {
     height: 77px;
-    width: 300px;
   }
 
   .mid-div-mob-sm > div {
-    float: left;
     padding: 0 0 0 10px;
   }
 
@@ -68,17 +63,14 @@
 
   .nav-mob-sm-div-1 > div:last-of-type {
     background-color: white;
-    height: 100%;
   }
 
   .article-1-mob-sm i,
   .article-3-mob-sm i {
-    color: white;
     margin-right: 5px;
   }
 
   .ft-top-div-mob-sm i {
-    color: white;
     height: 30px;
     width: 40px;
     border-radius: 50%;
@@ -91,7 +83,6 @@
   .nav-mob-sm-div-1 > div > i {
     padding: 32px 15px 0 15px;
     border-left: 1px #aaa solid;
-    height: 100%;
   }
 
   .ft-bottom-div-mob-sm img {
@@ -113,7 +104,6 @@
   }
 
   .mid-div-mob-sm > img {
-    float: right;
     height: 96px;
     width: 96px;
   }
@@ -170,12 +160,10 @@
   .article-1-mob-sm {
     max-width: 100%;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(39, 39, 39, 0.521));
-    justify-content: space-between;
   }
 
   .article-1-mob-sm p,
   .article-3-mob-sm p {
-    color: white;
     font-size: 0.6em;
   }
 
@@ -193,7 +181,6 @@
   }
 
   .article-1-mob-sm > div > h2 {
-    color: white;
     font-size: 1.1em;
     max-width: 95%;
   }
@@ -212,7 +199,6 @@
   }
 
   .article-2-mob-sm > h2 {
-    color: white;
     font-size: 1.2em;
     padding: 20px;
   }
@@ -224,7 +210,6 @@
   }
 
   .article-3-mob-sm > h2 {
-    color: white;
     font-size: 1.2em;
     padding: 20px 20px 0 20px;
   }
@@ -240,10 +225,6 @@
     width: 90%;
   }
 
-  .art-2-box-mob-sm > div {
-    width: 100%;
-  }
-
   .art-2-box-mob-sm > div > a > img {
     height: 75px;
     width: 90px;
@@ -255,7 +236,6 @@
   }
 
   .art-2-box-mob-sm {
-    width: 100%;
     height: 90px;
   }
 
@@ -264,9 +244,7 @@
   }
 
   .ft-bottom-div-mob-sm a {
-    color: #aaa;
     margin-right: 5px;
-    font-size: 0.9em;
     float: left;
   }
 
@@ -278,8 +256,6 @@
   }
 
   .mid-div-mob-sm a {
-    color: #f42;
-    font-size: 0.8em;
     line-height: 1.2;
     max-width: 70%;
     text-justify: auto;
@@ -304,15 +280,13 @@
     margin-top: 20px;
   }
 
-  .container-mob-sm > .item-mob-sm {
-    width: 100%;
+  .item-mob-sm {
     height: 269.13px;
     padding: 12px 0;
   }
 
   .head-mob-sm {
     background: #f42;
-    color: white;
     padding: 12px;
     font-size: 1.2em;
   }
@@ -330,14 +304,10 @@
 
   .funding-title-div-mob-sm > h2 > a {
     font-size: 1.7em;
-    color: #f42;
   }
 
   .funding-title-div-mob-sm > p {
-    color: #f42;
     line-height: 1.8;
-    font-size: 0.9em;
-    width: 100%;
     margin: 10px 0;
   }
 
@@ -380,14 +350,10 @@
     max-width: 100%;
   }
 
-  .description-mob-sm span {
-    color: #aaa;
-  }
-
   /* Mid Links Section */
 
-  .mid-links-mob-sm {
-    width: 100%;
+  .mid-links-mob-sm > h2 {
+    display: none;
   }
 
   .articles-3-mob-sm {
@@ -397,7 +363,6 @@
 
   .articles-3-mob-sm h2 {
     font-size: 2em;
-    color: #f42;
     margin-bottom: 10px;
   }
 
@@ -406,14 +371,12 @@
   }
 
   .top-div-mob-sm h4 {
-    color: white;
     font-size: 0.8em;
     line-height: 1.5;
     padding: 0 0 0 10px;
   }
 
   .top-div-mob-sm h3 {
-    color: white;
     font-size: 1.2em;
     margin-bottom: 5px;
     padding: 5px 10px 5px 10px;
@@ -429,12 +392,9 @@
   .mid-div-mob-sm {
     background-color: #ff432215;
     height: 96px;
-    width: 100%;
   }
 
   .mid-div-mob-sm h5 {
-    color: #f42;
-    font-size: 0.8em;
     margin-bottom: 5px;
   }
 
@@ -452,19 +412,11 @@
   }
 
   .ft-links-mob-sm li {
-    color: #aaa;
-    font-size: 0.8em;
     margin-right: 15px;
   }
 
   .bottom-div-mob-sm > ul > li {
     height: 51px;
-  }
-
-  .bottom-div-mob-sm > ul > li > a {
-    color: #aaa;
-    font-size: 0.9em;
-    text-decoration: none;
   }
 
   .bottom-div-mob-sm {
@@ -475,29 +427,22 @@
 
   /* Deals section */
 
+  .deals-mob-sm {
+    height: 750px;
+  }
+
   .deals-title-mob-sm {
     width: 90%;
-    justify-content: space-between;
   }
 
   .deals-mob-sm h2 {
     font-size: 1.5em;
-    color: #f42;
     margin-bottom: 30px;
-  }
-
-  .deals-mob-sm h4 {
-    font-size: 0.9em;
-    color: #f42;
   }
 
   .deals-section-mob-sm {
     width: 90%;
     height: 72px;
-  }
-
-  .deal-items-mob-sm {
-    width: 100%;
   }
 
   .font-mob-sm {
@@ -508,14 +453,8 @@
   }
 
   .price-mob-sm {
-    width: 100%;
     height: 26px;
     margin: 5px 0;
-  }
-
-  .old-price-mob-sm {
-    font-size: 0.8em;
-    color: #aaa;
   }
 
   .new-price-mob-sm {
@@ -527,9 +466,7 @@
   /* Footer Section */
 
   .footer-mob-sm {
-    width: 100%;
     height: 307px;
-    margin-top: 600px;
   }
 
   .ft-top-div-mob-sm {
@@ -554,13 +491,11 @@
   .ft-bottom-div-mob-sm {
     background-color: #000;
     justify-content: center;
-    height: 122px;
-    border: 1px white solid;
+    height: 123px;
     padding: 5%;
   }
 
   .ft-bottom-div-mob-sm a:last-of-type {
-    color: white;
     float: right;
   }
 }

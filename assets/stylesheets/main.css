@@ -55,6 +55,10 @@
   justify-content: center;
 }
 
+.jst-cnt-sb {
+  justify-content: space-between;
+}
+
 body {
   width: 100vw;
 }
