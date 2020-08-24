@@ -295,6 +295,10 @@
     padding: 12px 0;
   }
 
+  .container-mob-sm > .item-mob-sm:last-child {
+    display: none;
+  }
+
   .head-mob-sm {
     background: #f42;
     padding: 12px;
