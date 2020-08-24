@@ -145,17 +145,17 @@ body {
     text-justify: auto;
   }
 
-  .nav-sections > li > a,
-  .u-clear > ul > li > a {
-    font-size: 1em;
-  }
-
   .funding-title-div > h2 > a {
     font-size: 2em;
   }
 
   .funding-title-div > p > a {
     font-size: 1.1em;
+  }
+
+  .nav-sections > li > a,
+  .u-clear > ul > li > a {
+    font-size: 1em;
   }
 
   .nav-div-2 {

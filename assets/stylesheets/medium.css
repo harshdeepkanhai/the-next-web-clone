@@ -7,8 +7,6 @@
   .mid-links-mob-sm,
   .deals-mob-sm,
   .footer-mob-sm,
-  .article-1 > div:first-of-type,
-  .item:last-child,
   .mid-links > h2,
   .articles > h2 {
     display: none;
@@ -68,9 +66,6 @@
     padding-left: 15px;
   }
 
-  .nav-medium-div-2 > div {
-    border-left: 1px #aaa solid;
-  }
 
   .nav-medium-div-2 i {
     margin-right: 20px;
@@ -168,6 +163,10 @@
   .mid-div > div {
     float: left;
     padding: 20px 0 0 10px;
+  }
+
+  .article-1 > div:first-of-type {
+    display: none;
   }
 
   .article-1 > div:last-of-type {
@@ -273,6 +272,10 @@
     padding: 12px 0;
   }
 
+  .item:last-child {
+    display: none;
+  }
+
   .head {
     background: #f42;
     padding: 12px;
@@ -347,6 +350,10 @@
     padding: 5px 10px 5px 10px;
   }
 
+  .bottom-div > ul > li {
+    height: 51px;
+  }
+
   .top-div > div > ul > li {
     margin: 0 8px;
   }
@@ -372,10 +379,6 @@
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-  }
-
-  .bottom-div > ul > li {
-    height: 51px;
   }
 
   .bottom-div {

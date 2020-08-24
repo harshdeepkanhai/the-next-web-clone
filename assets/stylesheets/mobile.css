@@ -9,7 +9,6 @@
   .deals,
   .footer,
   .nav-medium,
-  .item-mob-sm:last-child,
   .mid-links-mob-sm > h2,
   .articles-mob-sm > h2 {
     display: none;
@@ -286,6 +285,11 @@
     padding: 12px 0;
   }
 
+  
+  .item-mob-sm:last-child {
+    display: none;
+  }
+
   .head-mob-sm {
     background: #f42;
     padding: 12px;
@@ -353,7 +357,7 @@
     width: 90%;
     margin: 0 auto;
   }
-  
+
   .articles-3-mob-sm > article {
     margin: 20px 0;
   }
