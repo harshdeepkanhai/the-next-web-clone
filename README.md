@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/harshdeepkanhai/the-next-web-clone/feature/index.html)
+[Live Demo Link](https://raw.githack.com/harshdeepkanhai/the-next-web-clone/master/index.html)
 
 
 
