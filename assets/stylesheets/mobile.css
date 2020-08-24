@@ -8,7 +8,10 @@
   .article-3,
   .deals,
   .footer,
-  .nav-medium {
+  .nav-medium,
+  .item-mob-sm:last-child,
+  .mid-links-mob-sm > h2,
+  .articles-mob-sm > h2 {
     display: none;
   }
 
@@ -63,6 +66,7 @@
 
   .nav-mob-sm-div-1 > div:last-of-type {
     background-color: white;
+    margin-right: 10px;
   }
 
   .article-1-mob-sm i,
@@ -71,7 +75,7 @@
   }
 
   .ft-top-div-mob-sm i {
-    height: 30px;
+    height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: #333;
@@ -81,7 +85,7 @@
   }
 
   .nav-mob-sm-div-1 > div > i {
-    padding: 32px 15px 0 15px;
+    padding: 20px 15px 0 15px;
     border-left: 1px #aaa solid;
   }
 
@@ -110,7 +114,6 @@
 
   .nav-mob-sm-div-1 > div > img {
     height: 16px;
-    margin-left: 10px;
   }
 
   .nav-mob-sm-div-2 {
@@ -172,10 +175,6 @@
     color: orangered;
   }
 
-  .articles-mob-sm > h2 {
-    display: none;
-  }
-
   .deals-mob-sm h2 {
     font-size: 1.5em;
     margin-bottom: 30px;
@@ -184,10 +183,6 @@
   .articles-3-mob-sm h2 {
     font-size: 2em;
     margin-bottom: 10px;
-  }
-
-  .mid-links-mob-sm > h2 {
-    display: none;
   }
 
   .art-2-box-mob-sm h2 {
@@ -216,16 +211,11 @@
     justify-content: center;
   }
 
-  .article-2-mob-sm {
-    max-width: 100%;
-    background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
-    justify-content: flex-end;
-  }
-
+  .article-2-mob-sm,
   .article-3-mob-sm {
     max-width: 100%;
-    justify-content: flex-end;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
+    justify-content: flex-end;
   }
 
   .article-3-mob-sm ul {
@@ -245,7 +235,8 @@
     margin-right: 5px;
   }
 
-  .articles-2-mob-sm {
+  .articles-2-mob-sm,
+  .deals-title-mob-sm {
     width: 90%;
   }
 
@@ -293,10 +284,6 @@
   .item-mob-sm {
     height: 269.13px;
     padding: 12px 0;
-  }
-
-  .container-mob-sm > .item-mob-sm:last-child {
-    display: none;
   }
 
   .head-mob-sm {
@@ -366,6 +353,10 @@
     width: 90%;
     margin: 0 auto;
   }
+  
+  .articles-3-mob-sm > article {
+    margin: 20px 0;
+  }
 
   .top-div-mob-sm {
     position: relative;
@@ -430,10 +421,7 @@
 
   .deals-mob-sm {
     height: 750px;
-  }
-
-  .deals-title-mob-sm {
-    width: 90%;
+    margin-top: 30px;
   }
 
   .deals-section-mob-sm {

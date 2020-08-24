@@ -6,7 +6,11 @@
   .funding-mob-sm,
   .mid-links-mob-sm,
   .deals-mob-sm,
-  .footer-mob-sm {
+  .footer-mob-sm,
+  .article-1 > div:first-of-type,
+  .item:last-child,
+  .mid-links > h2,
+  .articles > h2 {
     display: none;
   }
 
@@ -39,7 +43,9 @@
     transition: ease-out;
   }
 
-  .art-2-box li {
+  .art-2-box li,
+  .nav-medium-sections-section > a,
+  .art-2-ft-text a {
     font-size: 1em;
   }
 
@@ -47,7 +53,8 @@
     margin: 5px;
   }
 
-  .u-clear-medium > ul > li {
+  .u-clear-medium > ul > li,
+  .nav-medium-sections-section {
     margin: 0 5px;
   }
 
@@ -59,14 +66,6 @@
 
   .nav-medium-sections {
     padding-left: 15px;
-  }
-
-  .nav-medium-sections-section {
-    margin: 0 5px;
-  }
-
-  .nav-medium-sections-section > a {
-    font-size: 1em;
   }
 
   .nav-medium-div-2 > div {
@@ -126,7 +125,7 @@
 
   .article-1 {
     background: linear-gradient(to bottom, rgba(253, 39, 39, 0.377), black);
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 
   .article-1 > div {
@@ -155,10 +154,6 @@
     margin-bottom: 5px;
   }
 
-  .article-1 > div > img {
-    width: 300px;
-  }
-
   .article-1 i,
   .article-3 i {
     margin-right: 5px;
@@ -179,10 +174,6 @@
     padding: 20px;
   }
 
-  .articles > h2 {
-    display: none;
-  }
-
   .latest-news h1 {
     font-size: 2.5em;
   }
@@ -190,10 +181,6 @@
   .articles-3 h2 {
     font-size: 2em;
     margin-bottom: 10px;
-  }
-
-  .mid-links > h2 {
-    display: none;
   }
 
   .art-2-box h2 {
@@ -215,16 +202,11 @@
     width: 95%;
   }
 
-  .article-2 {
-    max-width: 100%;
-    background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
-    justify-content: flex-end;
-  }
-
+  .article-2,
   .article-3 {
     max-width: 100%;
-    justify-content: flex-end;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(252, 252, 252, 0));
+    justify-content: flex-end;
   }
 
   .article-3 ul {
@@ -264,10 +246,6 @@
     max-width: 75%;
   }
 
-  .art-2-ft-text a {
-    font-size: 1em;
-  }
-
   .funding-title-div > h2 > a {
     font-size: 2em;
   }
@@ -290,13 +268,9 @@
     margin-top: 20px;
   }
 
-  .container > .item {
+  .item {
     height: 269.13px;
     padding: 12px 0;
-  }
-
-  .container > .item:last-child {
-    display: none;
   }
 
   .head {
@@ -348,7 +322,7 @@
 
   .mid-links {
     width: 95%;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
   }
 
   .articles-3 {
@@ -371,6 +345,10 @@
     font-size: 1.2em;
     margin-bottom: 5px;
     padding: 5px 10px 5px 10px;
+  }
+
+  .top-div > div > ul > li {
+    margin: 0 8px;
   }
 
   .mid-div {
@@ -464,7 +442,7 @@
   }
 
   .ft-top-div i {
-    height: 30px;
+    height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: #333;

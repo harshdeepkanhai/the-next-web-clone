@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 .flex {
   display: flex;
 }
@@ -72,7 +77,9 @@ body {
   .mid-links-mob-sm,
   .deals-mob-sm,
   .footer-mob-sm,
-  .nav-medium {
+  .nav-medium,
+  .mid-links > h2,
+  .articles > h2 {
     display: none;
   }
 
@@ -138,7 +145,8 @@ body {
     text-justify: auto;
   }
 
-  .nav-sections > li > a {
+  .nav-sections > li > a,
+  .u-clear > ul > li > a {
     font-size: 1em;
   }
 
@@ -148,10 +156,6 @@ body {
 
   .funding-title-div > p > a {
     font-size: 1.1em;
-  }
-
-  .u-clear > ul > li > a {
-    font-size: 1em;
   }
 
   .nav-div-2 {
@@ -266,7 +270,8 @@ body {
 
   .mid-div > div {
     float: left;
-    padding: 20px 0 0 10px;
+    padding: 5px 10px 0 5px;
+    height: 80%;
   }
 
   .article-1 > div:last-of-type {
@@ -287,17 +292,9 @@ body {
     padding: 20px 20px 0 20px;
   }
 
-  .articles > h2 {
-    display: none;
-  }
-
   .articles-3 h2 {
     font-size: 2em;
     margin-bottom: 10px;
-  }
-
-  .mid-links > h2 {
-    display: none;
   }
 
   .art-2-box h2 {
@@ -521,7 +518,7 @@ body {
   }
 
   .ft-top-div i {
-    height: 30px;
+    height: 40px;
     width: 40px;
     border-radius: 50%;
     background-color: #333;
