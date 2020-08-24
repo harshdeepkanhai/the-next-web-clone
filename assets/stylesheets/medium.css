@@ -309,6 +309,7 @@
   .funding-title-div {
     height: 50px;
     margin: 10px 0;
+    flex-direction: column;
   }
 
   .fund {
